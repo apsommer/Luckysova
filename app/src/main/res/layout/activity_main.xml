@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/logo_padding"
+            android:layout_marginTop="@dimen/logo_margin"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_top" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@color/colorPrimary"
+            android:src="@drawable/button_selector"
+            android:paddingLeft="@dimen/logo_padding"
+            android:paddingRight="@dimen/logo_padding"
+            android:onClick="openBrowser"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+
+
+
+        <ImageView
+            android:id="@+id/image_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/image_margin"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/pic1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_margin"
+            android:gravity="center"
+            android:text="@string/old_town_san_diego"
+            android:textSize="@dimen/text_size_large"
+            app:fontFamily="cursive" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_margin"
+            android:gravity="center"
+            android:text="@string/san_diego_address"
+            android:textSize="@dimen/text_size_small"
+            app:fontFamily="cursive" />
+
+        <ImageView
+            android:id="@+id/image_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/pic3" />
+
+        <TextView
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/baja_california"
+            android:textSize="@dimen/text_size_large"
+            app:fontFamily="cursive" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tijuana_address"
+            android:textSize="@dimen/text_size_small"
+            app:fontFamily="cursive" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/text_margin" >
+
+            <ImageView
+                android:layout_margin="@dimen/icon_margin"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:src="@drawable/facebook2_gray" />
+
+            <ImageView
+                android:layout_margin="@dimen/icon_margin"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:src="@drawable/whatsapp_gray" />
+
+            <ImageView
+                android:layout_margin="@dimen/icon_margin"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:src="@drawable/slack_gray" />
+
+            <ImageView
+                android:layout_margin="@dimen/icon_margin"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:src="@drawable/instagram_gray" />
+
+            <ImageView
+                android:layout_margin="@dimen/icon_margin"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:src="@drawable/twitter2_gray" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LUCKYSOVA</string>
+    <string name="old_town_san_diego">Old Town San Diego</string>
+    <string name="san_diego_address">Juan Street, San Diego, CA 92110</string>
+    <string name="baja_california">Baja California</string>
+    <string name="tijuana_address">Del Pacifico, Costa de Oro, 22506 Tijuana</string>
+</resources>
